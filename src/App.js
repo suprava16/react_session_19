@@ -8,6 +8,9 @@ import ChangeEvent from "./FunctionalComponent/ChangeEvent"
 import Array from "./ClassComponent/Array"
 import Conditionallyrenderning from "./FunctionalComponent/Conditionallyrenderning"
 import Main from "./FunctionalComponent/lifecycle/Main"
+import Fetch from "./Api/Fetch"
+import PassData from "./Api/PassData"
+import Design from "./MaterialUi/Design"
 export default class App extends React.Component{
   render(){
     return(
@@ -21,7 +24,10 @@ export default class App extends React.Component{
       {/* <ChangeEvent/> */}
       {/* <Array/> */}
       {/* <Conditionallyrenderning/> */}
-      <Main/>
+      {/* <Main/> */}
+      {/* <Fetch/> */}
+      {/* <PassData/> */}
+      <Design/>
       </>
       
     )
