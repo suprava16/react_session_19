@@ -11,6 +11,7 @@ import Main from "./FunctionalComponent/lifecycle/Main"
 import Fetch from "./Api/Fetch"
 import PassData from "./Api/PassData"
 import Design from "./MaterialUi/Design"
+import Routing from "./RouterDom/Routing"
 export default class App extends React.Component{
   render(){
     return(
@@ -27,7 +28,8 @@ export default class App extends React.Component{
       {/* <Main/> */}
       {/* <Fetch/> */}
       {/* <PassData/> */}
-      <Design/>
+      {/* <Design/> */}
+      <Routing/>
       </>
       
     )
